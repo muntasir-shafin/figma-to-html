@@ -1,0 +1,372 @@
+
+
+
+@media (max-width: 575.98px) { 
+    .navbar {
+        top: 0;
+        background-color: bisque;
+        padding: 10px 0;
+    }
+
+    .navbar-toggler{
+        border: 1px solid #6A4DF4;
+    }
+    .navbar-toggler i{
+        color:  #6A4DF4;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar .navbar-nav {
+        flex-direction: row;
+        row-gap: 20px ;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .active {
+        color: #070707;
+    }
+    .navbar .nav-link {
+        color: #000000;
+ }
+ .navbar .custom_btn {
+	color: #6A4DF4;
+    font-size: 17px;
+	padding: 15px 42px;
+	border-radius: 7PX;
+	background: transparent;
+	width: 100%;
+    border: 1px solid #6A4DF4;
+}
+/* ====================================== */
+#banner_part .overlay {
+	padding: 120px 0 100px;
+}
+#banner_part .overlay .container h1 {
+	
+	font-size: 40px;
+	line-height: 100%;
+}
+#banner_part .overlay .container p {
+	
+	font-size: 17px;
+	line-height: 25px;
+	/* padding: 70px 0; */
+}
+
+#banner_part .custom_btn {
+	color: #6A4DF4;
+	font-size: 17px;
+	line-height: 26px;
+    padding: 8px 28px;
+    border-radius: 13px;
+	background: transparent;
+	border: 1px solid #6A4DF4;
+}
+
+.main_banner_slider ul li button {
+	width: 15px;
+	height: 15px;
+}
+/* =========================================================== */
+#success_part {
+	padding: 40px 12px 0;
+}
+#success_part .container {
+	padding: 20px 12px 20px;
+	border-radius: 10px;
+}
+#success_part .container .left h3 {
+	font-size: 20px;
+	text-align: center;
+}
+#success_part .container .left h2 {
+	font-size: 27px;
+	text-align: center;
+    padding: 15px 0 15px;
+}
+#success_part .container .text {
+	flex-direction: column;
+	text-align: center;
+}
+#success_part .container .text .item h4 {
+	font-size: 32px;
+}
+#success_part .container .text .item p {
+	font-size: 15px;
+  padding-bottom: 10px;
+}
+/* ============================================================= */
+#service_part {
+	padding: 60px 12px ;
+}
+
+#service_part .title h2 {
+	font-size: 30px;
+}
+#service_part .title p {
+  font-size: 13px;
+  padding: 5px 0;
+  line-height: 19px;
+  width: 250px;
+}
+
+#service_part .main {
+	padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px; 
+   box-shadow: 0px 0px 10px 2px rgba(150, 137, 236, 0.25);
+}
+#service_part .main img{
+    width: 55px;
+}
+
+#service_part .main h3 {
+	font-size: 17px;
+    padding: 15px 0 9px;
+}
+
+#service_part .main p {
+	font-family: Inter;
+	font-size: 13px;
+	line-height: 18px;
+}
+/* =============================================== */
+
+#card_part {
+	margin: 5px 0;
+}
+
+
+#card_part .title h2 {
+	font-size: 39px;
+	font-weight: 601;
+}
+#card_part .title p {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 11px auto 20px;
+	width: 309px;
+}
+#card_part img{
+    width: 296px;
+}
+#card_part .container .text {
+	text-align: center;
+	padding: 5px 45px;
+}
+#card_part .container .text h3 {
+	font-size: 17px;
+}
+#card_part .container .text p {
+	font-size: 12px;
+	line-height: 18px;
+	width: 211px;
+}
+/* ============================================ */
+#agenc_part {
+	padding: 40px 12px;
+}
+#agenc_part .container {
+	background: url(../images/background.jpg) no-repeat center / cover;
+	position: relative;
+	z-index: 1;
+	padding: 37px 12px;
+}
+
+#agenc_part .container ::after{
+	content: "";
+    width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.055);
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: -1;
+}
+
+#agenc_part .container .agencp {
+ display: none;
+}
+
+#agenc_part .title h2 {
+	font-size: 26px;
+	width: 296px;
+	margin: 0;
+	padding: 9px 0px;
+}
+#agenc_part .title p {
+	font-size: 11px;
+	line-height: 22px;
+	margin: 0px auto 20px;
+}
+#agenc_part .container .down img,
+#agenc_part .container .up img{
+	width: 42px;
+	height: 100%;
+}
+
+ #agenc_part .container .up h3,
+ #agenc_part .container .down h3 {
+	font-size: 17px;
+	padding: 5px 0;
+	color: var(--Dark-01, #7f8eca);
+}
+#agenc_part .container .up p,
+ #agenc_part .container .down p {
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--Dark-03, #259172);
+}
+#agenc_part .container .up,
+#agenc_part .container .down {
+	margin-bottom: 5px;
+}
+#agenc_part .container .row .col-lg-4:last-child{
+	display: none;
+}
+#agenc_part .container .row{
+	row-gap: 20px;
+}
+
+#agenc_part .container .up{
+	display: flex;
+	column-gap: 30px;
+}
+
+#agenc_part .container .down{
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+ }
+
+ #agenc_part .container .down:nth-child(even){
+	flex-direction: row-reverse;
+	margin-top: 20px;
+ }
+ /* ================================================= */
+ #reviews_part {
+	margin-bottom: 120px;
+}
+
+ #reviews_part .title h2 {
+	font-size: 32px;
+}
+#reviews_part .title p {
+	font-size: 13px;
+	line-height: 20px;
+	margin: 5px auto 30px;
+}
+
+#reviews_part .review_item .coma {
+	padding: 0;
+	width: 60px;
+	padding: 30px 10px 20px;
+}
+#reviews_part .review_item p {
+	font-size: 11px;
+	line-height: 20px;
+	width: 280px;
+	padding: 10px 10px;
+}
+#reviews_part .review_item .icon {
+	padding: 10px 10px;
+}
+
+#reviews_part .review_item .client {
+	column-gap: 10px;
+	padding: 10px 10px;
+}
+#reviews_part .main_slider .review_item {
+	border-radius: 20px;
+}
+
+#reviews_part .main_slider .slick-center{
+    box-shadow: none;
+}
+#reviews_part .main_slider .left {
+	
+	left: 40%;
+	top: 100%;
+	height: 40px;
+  width: 40px;
+	transform: translateY(100%) translateX(-50%);
+	border-radius: 20%;
+}
+#reviews_part .main_slider .right {
+	right: 40%;
+	top: 100%;
+	height: 40px;
+  width: 40px;
+	transform: translateY(100%) translateX(50%);
+	border-radius: 20%;
+}
+/* ================================================= */
+
+#form_part {
+	padding: 30px 0;
+}
+#form_part .text h2 {
+	font-size: 23px;
+	text-align: center;
+}
+#form_part .text :nth-child(2) {
+	padding: 20px 0 10px;
+}
+#form_part .text p {
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center;
+}
+
+#form_part form {
+	padding: 30px 15px;
+	border-radius: 0;
+	margin: 20px 0;
+}
+#form_part form h3 {
+	font-size: 18px;
+	padding-bottom: 22px;
+}
+#form_part form label {
+	font-size: 12px;
+	line-height: 15px;
+}
+#form_part form input {
+	font-size: 12px;
+	line-height: 14px;
+	padding: 17px 27px;
+	border-radius: 0;
+	margin: 5px 0 17px;
+}
+#form_part form button {
+	font-size: 14px;
+	line-height: 21px;
+	padding: 10px 0;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
